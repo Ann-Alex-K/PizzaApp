@@ -3,14 +3,6 @@ import styles from './Button.module.css';
 import { ButtonProps } from './Button.props';
 import cn from 'classnames';
 
-// export const ButtonAlt: FC<ButtonProps> = ({className, children, ...props }) => {
-//     return (
-//         <button {...props} className={cn('button accent', className)}>
-//           {children}
-//         </button>
-//       );
-// }
-
 function Button({ children, className, appearence = 'small', ...props }: ButtonProps) {
   return (
     <button

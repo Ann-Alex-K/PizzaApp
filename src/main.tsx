@@ -63,16 +63,6 @@ const router = createBrowserRouter([
               );
             }),
           });
-
-          // return defer({
-          //   data: axios
-          //     .get(`${PREFIX}/products/${params.id}`)
-          //     .then(data => data),
-          // });
-
-          // await new Promise<void>(resolve => setTimeout(resolve, 1000));
-          // const { data } = await axios.get(`${PREFIX}/products/${params.id}`);
-          // return data;
         },
       },
     ],
